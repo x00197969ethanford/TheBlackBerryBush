@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Name] – Gardening & Painting</title>
+    <meta name="description"
+        content="Reliable gardening and painting services in [Area]. Get in touch for a free quote.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="wrap">
+            <a href="#" class="logo">[Name] Services</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <h1>Gardens & homes,<br>looked after properly.</h1>
+            <p>Hi, I'm [Name]. I help people in [Area] keep their gardens tidy and their homes freshly painted.</p>
+            <a href="#contact" class="btn">Get a free quote</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="wrap about-grid">
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=70"
+                alt="Freshly maintained garden">
+            <div>
+                <h2>About me</h2>
+                <p>[Short intro — e.g. I've been doing gardening and painting work for X years. I'm local, reliable, and
+                    I take pride in leaving every job looking better than I found it.]</p>
+                <p>[Something personal — e.g. No job too small, whether it's a one-off tidy-up or regular maintenance.]
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="wrap">
+            <h2>What I do</h2>
+            <p class="lead">Mostly gardens, but I'm happy to take on painting jobs too.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="icon">🌿</div>
+                    <h3>Gardening</h3>
+                    <ul>
+                        <li>Lawn mowing & edging</li>
+                        <li>Hedge & shrub trimming</li>
+                        <li>Weeding & flower beds</li>
+                        <li>Garden clearances</li>
+                        <li>Regular maintenance</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="icon">🖌️</div>
+                    <h3>Painting</h3>
+                    <ul>
+                        <li>Interior walls & ceilings</li>
+                        <li>Exterior walls</li>
+                        <li>Fences & sheds</li>
+                        <li>Doors & woodwork</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="wrap">
+            <h2>The details</h2>
+            <div class="detail-grid">
+                <div class="detail">
+                    <h3>📍 Areas covered</h3>
+                    <p>[Area 1, Area 2, Area 3]</p>
+                </div>
+                <div class="detail">
+                    <h3>🕒 Availability</h3>
+                    <p>[Mon–Sat, 8am–6pm]</p>
+                </div>
+                <div class="detail">
+                    <h3>💬 Free quotes</h3>
+                    <p>No obligation — just get in touch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrap contact-grid">
+            <div class="contact-info">
+                <h2>Contact me</h2>
+                <p>Send a message or give me a call and I'll get back to you as soon as I can.</p>
+                <p>📞 <a href="tel:+353000000000">[Phone number]</a></p>
+                <p>✉️ <a href="mailto:you@example.com">[Email]</a></p>
+                <p>💬 <a href="https://wa.me/353000000000">WhatsApp me</a></p>
+            </div>
+
+            <!-- Replace YOUR_FORM_ID with your Formspree form ID (free at formspree.io) -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label>Name<input type="text" name="name" required></label>
+                <label>Email or phone<input type="text" name="contact" required></label>
+                <label>Service
+                    <select name="service">
+                        <option>Gardening</option>
+                        <option>Painting</option>
+                        <option>Both</option>
+                    </select>
+                </label>
+                <label>Message<textarea name="message" rows="4" placeholder="Tell me a bit about the job..."
+                        required></textarea></label>
+                <button type="submit" class="btn btn-green">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        © <span id="year"></span> [Name] Services · [Area]
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
