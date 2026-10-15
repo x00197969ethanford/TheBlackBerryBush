@@ -335,6 +335,8 @@ footer {
     font-size: .95rem;
 }
 
+.contact-info i { color: var(--green); width: 22px; margin-right: 6px; }
+
 /* Mobile */
 @media (max-width: 720px) {
     nav ul {
