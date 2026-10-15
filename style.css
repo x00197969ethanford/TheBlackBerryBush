@@ -335,7 +335,23 @@ footer {
     font-size: .95rem;
 }
 
-.contact-info i { color: var(--green); width: 22px; margin-right: 6px; }
+.contact-info i {
+    color: var(--green);
+    width: 22px;
+    margin-right: 6px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
 
 /* Mobile */
 @media (max-width: 720px) {
