@@ -31,7 +31,7 @@
       const date = r.time
         ? " · " + new Date(r.time).toLocaleDateString("en-IE", { month: "long", year: "numeric" })
         : "";
-      author.textContent = `— ${r.author}, via Google${date}`;
+      author.textContent = `${r.author}, via Google${date}`;
 
       card.append(stars, text, author);
       list.appendChild(card);
