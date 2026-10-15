@@ -51,6 +51,8 @@ nav .wrap {
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    max-width: none;
+    padding: 0 32px;
 }
 
 .logo {
@@ -348,7 +350,7 @@ footer {
 }
 
 .logo img {
-    height: 40px;
+    height: 65px;
     width: auto;
     display: block;
 }
